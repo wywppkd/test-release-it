@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "release": "release-it --ci"
+		"release:latest": "release-it patch --ci",
+		"release:alpha": "release-it patch --preRelease=alpha --ci",
+		"release:beta": "release-it patch --preRelease=beta --ci"
   },
   "author": "",
   "license": "ISC",
