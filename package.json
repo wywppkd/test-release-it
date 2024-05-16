@@ -1,12 +1,12 @@
 {
   "name": "@wywppkd/create-xx",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "",
   "main": "index.js",
   "scripts": {
-		"release:latest": "release-it patch --ci",
-		"release:alpha": "release-it patch --preRelease=alpha --ci",
-		"release:beta": "release-it patch --preRelease=beta --ci"
+    "release:latest": "release-it patch --ci",
+    "release:alpha": "release-it patch --preRelease=alpha --ci",
+    "release:beta": "release-it patch --preRelease=beta --ci"
   },
   "author": "",
   "license": "ISC",
